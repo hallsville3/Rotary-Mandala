@@ -53,6 +53,7 @@ public class MandalaRotate {
 
         screen.add(frame);
         screen.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        screen.setResizable(false);
         screen.setVisible(true);
         frame.setVisible(true);
         
